@@ -1,15 +1,29 @@
 {
   "name": "vue-reservoir",
+  "homepage": "https://M055165.github.io/vue-reservoir",
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@popperjs/core": "^2.9.2",
+    "axios": "^0.21.1",
+    "bootstrap": "^5.0.2",
     "core-js": "^3.6.5",
-    "vue": "^3.0.0"
+    "gh-pages": "^3.2.3",
+    "jquery": "^3.6.0",
+    "node-sass": "^6.0.1",
+    "popper.js": "^1.16.1",
+    "sass": "^1.32.6",
+    "sass-loader": "7.3.1",
+    "vue": "^3.0.0",
+    "vue-axios": "^3.2.4",
+    "vue-loading-overlay": "^4.0.3"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
